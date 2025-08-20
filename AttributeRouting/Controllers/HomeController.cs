@@ -12,7 +12,7 @@ namespace AttributeRouting.Controllers
         {
             _logger = logger;
         }
-
+        [Route ("CallRoute")]
         public IActionResult Index()
         {
             return View();
