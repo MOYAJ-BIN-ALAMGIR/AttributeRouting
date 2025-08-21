@@ -2,9 +2,10 @@
 
 namespace AttributeRouting.Controllers
 {
+    [Route("News/[controller]/USA/[Action]/{id?}")]
     public class AdminController : Controller
     {
-        [Route("[controller]/CallMe")]
+        
         public string Index()
         {
             return "'Admin' Controller, 'Index' View";
