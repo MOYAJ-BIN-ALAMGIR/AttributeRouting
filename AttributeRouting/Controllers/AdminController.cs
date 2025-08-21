@@ -2,7 +2,7 @@
 
 namespace AttributeRouting.Controllers
 {
-    [Route("News/[controller]/USA/[Action]/{id?}")]
+    [Route("News/[controller]/USA/[Action]/{id:int}")]
     public class AdminController : Controller
     {
         
